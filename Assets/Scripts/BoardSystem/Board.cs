@@ -22,9 +22,10 @@ public class Board : MonoBehaviour
                             {
                                 Debug.Log(r + "," + g + "," + b);
                                 _tiles.Add(new Position { X = r, Y = g, Z = b }, new Tile(r, g, b));
-                                Debug.Log(Tiles.Count());
                             }
                 Debug.Log("Coordinates have been generated");
+                Debug.Log(Tiles.Count());
+
             }
         }
 
